@@ -1,0 +1,2 @@
+"series","statistic","point","boot_median","ci95_lo","ci95_hi","ci90_lo","ci90_hi","se_boot","n_valid","B","ci95_excludes_0"
+"ETH_window_vs_pre","Delta_0.50",-2.77606613411121,-1.22610189438537,-4.79969863279907,7.66205206320235,-4.26070078922959,5.36382955750931,3.61538613325063,500,500,FALSE

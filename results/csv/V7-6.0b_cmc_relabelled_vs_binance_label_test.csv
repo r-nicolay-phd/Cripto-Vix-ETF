@@ -1,0 +1,7 @@
+"asset","series","binance_label_shift_days","n","corr_daily_returns","median_abs_level_diff_pct"
+"BTC","CMC relabelled (V7 base)",-1,2818,-0.0639970567629999,1.40095980369119
+"BTC","CMC relabelled (V7 base)",0,2818,0.995876553531019,0.0693832128915384
+"BTC","CMC relabelled (V7 base)",1,2818,-0.0537935623295625,1.40223109624041
+"ETH","CMC relabelled (V7 base)",-1,2818,-0.0668486419188879,1.97358620150922
+"ETH","CMC relabelled (V7 base)",0,2818,0.993969568639497,0.0787090671250656
+"ETH","CMC relabelled (V7 base)",1,2818,-0.0585785866513044,1.92861025948308

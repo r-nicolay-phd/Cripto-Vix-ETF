@@ -1,0 +1,32 @@
+# V7 — progresso
+
+- [2026-10-03 18:15] V7-1: selecao de defasagem, NPDC/NET/TCI por quantil e Delta/DD pontuais gravados.
+- [2026-10-03 18:16] V7-1: quebras TVP-VAR (BP/QA) gravadas; 17/03/2023 entre as datas BP: BTC FALSE, ETH FALSE.
+- [2026-10-03 18:16] V7-1: exclusao ago/2024, canal de fluxo (estado t), robustez p x H, grade de quantis, veiculo e construtos gravados.
+- [2026-10-03 18:17] V7-1 concluida (inclui janela movel).
+- [2026-10-03 18:20] V7-2 Etapa 1: MBB B=500 concluido (validas BTC 500, ETH 500).
+- [2026-10-03 18:21] V7-2 Etapa 1 (bootstrap corrigido, V7-5.1/5.3/5.4/5.5) concluida.
+- [2026-10-03 18:24] V7-2 Etapa 2 (contrafactual com IC, V7-5.6/5.7) concluida.
+- [2026-10-03 18:24] V7-2 Etapa 3 (placebo, V7-5.8/5.9) concluida.
+- [2026-10-03 18:24] V7-2 Etapa 4 (canal de fluxo, V7-5.11/5.12) concluida.
+- [2026-10-03 18:24] V7-2 Etapa 5 (cauda superior por p, V7-5.13/5.14) concluida.
+- [2026-10-03 18:24] V7-3 Tarefa 0 (diagnostico base nova, S15 t/t-1) concluida.
+- [2026-10-03 18:27] V7-3 Tarefa 1a (contrafactual na mediana) concluida.
+- [2026-10-03 18:29] V7-3 Tarefa 1 (1a/1b/1c) concluida.
+- [2026-10-03 18:29] V7-3 Tarefa 2 (poder) concluida; TOST equivalencia em 1 de 24 linhas.
+- [2026-10-03 18:30] V7-3 Tarefa 8 (BC/BCa, influencia, V7-F8) concluida.
+- [2026-10-03 18:38] V7-3 Tarefa 3 (ortogonalizacao, SOL) concluida.
+- [2026-10-03 18:41] V7-3 Tarefa 5 (ETH pre limpo) concluida.
+- [2026-10-03 18:42] V7-3 Tarefa 6 (regime desde 17/03/2023) concluida.
+- [2026-10-03 18:45] V7-3 Tarefa 7 (ADF/KPSS, Dlog) concluida.
+- [2026-10-03 18:48] V7-3 Tarefa 4: combinacao A concluida.
+- [2026-10-03 18:50] V7-3 Tarefa 4: combinacao B concluida.
+- [2026-10-03 18:50] V7-3 Tarefa 4 (A e B) concluida.
+- [2026-10-03 18:50] V7b item 1: Fig. 1 gerada (V7-Fig1_npdc_by_quantile.png); NPDC positivo em 20 de 42 celulas par x amostra x tau.
+- [2026-10-03 18:51] V7b item 2a: Table S5 (superficies QQ total/pre/pos/mudanca) estimada e gravada.
+- [2026-10-03 18:51] V7b item 2b: Fig. 2 (superficies QQ em cinza) gerada: V7-Fig2_qq_surfaces.png.
+- [2026-10-03 18:51] V7b item 4: Table S18 (grade 0,025-0,975) formatada.
+- [2026-10-03 18:54] V7b item 3: Table S8 (DD por controle, bootstrap conjunto B=500, validas BTC 500, ETH 500) gravada.
+- [2026-10-03 18:54] V7b item 5: Table S12 (placebo cauda inferior, desenho V4) reestimada.
+- [2026-10-03 18:54] V7b item 6: Table S13 reavaliada: BTC Nao/Nao/Nao -> causal Nao; ETH Sim/Parcial/Nao -> causal Nao.
+- [2026-10-03 18:54] 20: figuras Fig. 4, Fig. 5/S2 e Fig. S1 gravadas.

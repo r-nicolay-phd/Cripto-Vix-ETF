@@ -1,0 +1,5 @@
+"asset","n","construction","match_all","match_mondays","match_other_days"
+"BTC",2223,"(ii) VIX calendar first",1,1,1
+"BTC",2223,"(i) 7-day then intersect",0.788573999100315,0,0.978236607142857
+"ETH",2223,"(ii) VIX calendar first",1,1,1
+"ETH",2223,"(i) 7-day then intersect",0.788573999100315,0,0.978236607142857

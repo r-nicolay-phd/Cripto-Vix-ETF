@@ -1,0 +1,5 @@
+"cut","B","n_valid","n_timeout","pct_valid","meets_95pct"
+"BTC",20,20,0,100,TRUE
+"ETH",20,20,0,100,TRUE
+"BTC",500,500,0,100,TRUE
+"ETH",500,500,0,100,TRUE

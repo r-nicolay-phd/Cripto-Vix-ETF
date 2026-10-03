@@ -1,0 +1,6 @@
+"series","n","statistic","lag_order","p_value","stationary_5pct","lag_rule"
+"VIX level (V7 sample: from 2018-01-01, BTC intersection)",2223,-5.51033609929545,13,0.01,TRUE,"k = trunc((n-1)^(1/3)) [tseries::adf.test default, constant, no trend]"
+"VIX level (V7 sample: from 2018-01-01, ETH intersection)",2223,-5.51033609929545,13,0.01,TRUE,"k = trunc((n-1)^(1/3)) [tseries::adf.test default, constant, no trend]"
+"VIX level (raw, whole base_estendida_v7)",4104,-6.22070962646264,16,0.01,TRUE,"k = trunc((n-1)^(1/3)) [tseries::adf.test default, constant, no trend]"
+"BTC return (V7 sample)",2223,-11.9882469163034,13,0.01,TRUE,"k = trunc((n-1)^(1/3)) [tseries::adf.test default, constant, no trend]"
+"ETH return (V7 sample)",2223,-11.6020229653746,13,0.01,TRUE,"k = trunc((n-1)^(1/3)) [tseries::adf.test default, constant, no trend]"

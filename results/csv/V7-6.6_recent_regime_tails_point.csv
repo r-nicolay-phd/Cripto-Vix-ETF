@@ -1,0 +1,7 @@
+"series","statistic","point","note"
+"BTC","Delta_0.05",3.81835226103136,"point estimate only (imprecise)"
+"BTC","Delta_0.95",-27.5660315411337,"point estimate only (imprecise)"
+"ETH","Delta_0.05",2.85793164771752,"point estimate only (imprecise)"
+"ETH","Delta_0.95",-27.3894007842025,"point estimate only (imprecise)"
+"ETH_pre_to_2024_01_10","Delta_0.05",-0.177117529198441,"point estimate only (imprecise)"
+"ETH_pre_to_2024_01_10","Delta_0.95",-30.343416536901,"point estimate only (imprecise)"

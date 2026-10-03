@@ -1,0 +1,89 @@
+[2026-10-03 18:15:04] Script v7_01_dados.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:15:05] 01: amostras BTC 2223/1528/695, ETH 2223/1665/558; 0.1 s 
+[2026-10-03 18:15:06] Script v7_03_blocos_base.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:15:06] V7-1 BIC (amostra total): BTC 2, ETH 2 -> regra V4 = 2 (igual a V4); AIC -> 8. Especificacao principal MANTIDA em p = 2. 
+[2026-10-03 18:15:48] V7-1 quebras BTC: BP (com ago) 2020-03-06; 2021-11-19; 2023-03-10; 2024-08-02; QA 2018-11-07 (p=0) [0.7 min] 
+[2026-10-03 18:16:27] V7-1 quebras ETH: BP (com ago) 2020-03-06; 2021-09-09; 2022-12-28; 2024-08-01; QA 2018-11-07 (p=0) [0.6 min] 
+[2026-10-03 18:16:27] V7-1 canal de fluxo (estado em t): AR(p) do VIX p=2; diferencial h=0 BTC -0.444, ETH 0.781; h=10 BTC 0.878, ETH 3.622 
+[2026-10-03 18:17:11] V7-1 janela movel: 12/12 tarefas ok (0.6 min) 
+[2026-10-03 18:17:11] v7_03 (V7-1) concluido em 2.1 min 
+[2026-10-03 18:17:13] Script v7_10_p3_etapa1_bootstrap.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:17:13] V7-5.3 verificacao do ruido (1 sorteio): dif. max absoluta = 0.45666 (ETH DD_0.05) 
+[2026-10-03 18:18:54] V7-5 teste B=20 (92 s): MBB validas BTC 20/20, ETH 20/20 | SB BTC 20/20, ETH 20/20 
+[2026-10-03 18:20:10] V7-5.4 MBB B=500: validas BTC 500, ETH 500; timeouts 0/0 (1.3 min) 
+[2026-10-03 18:21:31] V7-5.5 SB B=500: validas BTC 500, ETH 500; timeouts 0/0 (1.3 min) 
+[2026-10-03 18:21:31] v7_10 concluido em 4.3 min 
+[2026-10-03 18:21:33] Script v7_11_p3_etapa2_contrafactual.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:21:34] V7-5.6: tratado no sistema conjunto = Tabela V7-5.4 (pontual): dif. max 0.00e+00 
+[2026-10-03 18:22:22] V7-5.6 teste B=20 (48 s): validas BTC-corte 20/20, ETH-corte 20/20 
+[2026-10-03 18:24:07] V7-5.6 B=500: validas BTC-corte 500, ETH-corte 500; timeouts 0/0 (1.8 min) 
+[2026-10-03 18:24:08] v7_11 concluido em 2.6 min 
+[2026-10-03 18:24:09] Script v7_12_p3_etapa3_placebo.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:24:13] V7-5.8 placebo: DD(0.95) p BTC 0.000 (N=17), ETH 0.000 (N=31); Delta(0.95) p BTC 0.000, ETH 0.000 
+[2026-10-03 18:24:13] v7_12 concluido em 0.1 min 
+[2026-10-03 18:24:14] Script v7_13_p3_etapa4_fluxo.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:24:29] V7-5.11: estado em t reproduz V7-1 (script 26 na base nova): dif. max 4.00e-15 
+[2026-10-03 18:24:29] v7_13 concluido em 0.3 min; p_vix = 2 
+[2026-10-03 18:24:31] Script v7_14_p3_etapa5_por_p.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:24:37] v7_14 concluido em 0.1 min 
+[2026-10-03 18:24:38] Script v7_20_p4_tarefa0.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:24:47] V7-6.0d: S15 estado em t (base nova) = V7-1 RQ (script 26 na base nova): dif. max 2.89e-15 
+[2026-10-03 18:24:47] v7_20 (Tarefa 0) concluido em 8.7 s 
+[2026-10-03 18:24:48] Script v7_21_p4_tarefa1.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:24:51] 1a: tratado (conjunto) = V7-5.4 (pontual): dif. max 0.00e+00 
+[2026-10-03 18:25:18] 1a teste B=20: validas BTC 20/20, ETH 20/20 (28 s) 
+[2026-10-03 18:27:37] 1a B=500: validas BTC 500, ETH 500; timeouts 0 (2.3 min) 
+[2026-10-03 18:27:38] 1b: pontuais = V7-1 exclusao (janela a): dif. max 4.44e-15 (n pos BTC 675, ETH 539) 
+[2026-10-03 18:28:03] 1b teste B=20: validas BTC 20, ETH 20 
+[2026-10-03 18:29:00] 1b B=500: validas BTC 500, ETH 500; timeouts 0 
+[2026-10-03 18:29:19] 1c: espacamento 20 = V7-5.9 (DD_0.95): 48 datas, max dif 4.97e-14 
+[2026-10-03 18:29:19] v7_21 (Tarefa 1) concluido em 4.5 min 
+[2026-10-03 18:29:21] Script v7_22_p4_tarefa2.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:29:21] v7_22 (Tarefa 2) concluido em 0.0 s; TOST equivalencia estabelecida em 1 de 24 linhas 
+[2026-10-03 18:29:23] Script v7_23_p4_tarefa8.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:29:50] 8: jackknife de blocos: 224 ajustes, falhas 0, 26.6 s 
+[2026-10-03 18:29:50] 8a: IC percentil reproduz V7-5.4: dif. max 4.97e-14 
+[2026-10-03 18:30:15] v7_23 (Tarefa 8) concluido em 0.9 min 
+[2026-10-03 18:30:17] Script v7_24_p4_tarefa3.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:30:25] 3: estatisticas brutas coincidem com a V7-6.1a: 80 comparadas, dif. max 0.00e+00 
+[2026-10-03 18:31:14] 3 teste B=20: validas BTC 20/20, ETH 20/20 (49 s) 
+[2026-10-03 18:38:40] 3 B=500: validas BTC 500, ETH 500; timeouts 0 (7.4 min) 
+[2026-10-03 18:38:40] v7_24 (Tarefa 3) concluido em 8.4 min 
+[2026-10-03 18:38:42] Script v7_25_p4_tarefa5.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:39:04] 5 teste B=20: validas 20/20 
+[2026-10-03 18:39:39] 5 B=500: validas 500; timeouts 0 
+[2026-10-03 18:40:03] 5 janela: validas 500; timeouts 0 
+[2026-10-03 18:40:04] 5: tratado no sistema conjunto = bootstrap separado (pontual): dif. max 0.00e+00 
+[2026-10-03 18:40:28] 5 contrafactual teste B=20: 20/20 
+[2026-10-03 18:41:35] 5 contrafactual B=500: 500 validas; timeouts 0 
+[2026-10-03 18:41:35] v7_25 (Tarefa 5) concluido em 2.9 min 
+[2026-10-03 18:41:37] Script v7_26_p4_tarefa6.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:42:00] 6 teste B=20: validas BTC 20; ETH 20; ETH_pre_to_2024_01_10 20 
+[2026-10-03 18:42:36] 6 B=500: BTC 500; ETH 500; ETH_pre_to_2024_01_10 500; timeouts 0 
+[2026-10-03 18:42:36] v7_26 (Tarefa 6) concluido em 1.0 min 
+[2026-10-03 18:42:38] Script v7_27_p4_tarefa7.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:42:39] 7b: defasagem por BIC (amostra total; BTC 1, ETH 1) -> p = 1 
+[2026-10-03 18:43:03] 7b teste B=20: BTC 20, ETH 20 
+[2026-10-03 18:43:50] 7b B=500: BTC 500, ETH 500; timeouts 0 
+[2026-10-03 18:44:15] 7b contrafactual teste B=20: BTC 20, ETH 20 
+[2026-10-03 18:45:16] 7b contrafactual B=500: BTC 500, ETH 500; timeouts 0 
+[2026-10-03 18:45:16] v7_27 (Tarefa 7) concluido em 2.6 min 
+[2026-10-03 18:45:17] Script v7_28_p4_tarefa4.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:48:06] 4c A: n BTC 1528/695, ETH 1665/558; Tabela 1 validas (teste 20/20) BTC 500 ETH 500; contraf. validas (teste 20/20) BTC 500 ETH 500; timeouts 0/0 
+[2026-10-03 18:50:52] 4c B: n BTC 1528/695, ETH 1665/558; Tabela 1 validas (teste 20/20) BTC 500 ETH 500; contraf. validas (teste 20/20) BTC 500 ETH 500; timeouts 0/0 
+[2026-10-03 18:50:52] v7_28 (Tarefa 4) concluido em 5.6 min 
+[2026-10-03 18:50:54] Script v7_40_fig1_fig2_s5_s18.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:50:55] V7b Fig.1: 20 de 42 valores NPDC (2 pares x 3 amostras x 7 tau) sao positivos 
+[2026-10-03 18:51:17] V7b S5: 294 ajustes QVAR da superficie, 0 falhas, 0.4 min 
+[2026-10-03 18:51:17] V7b S5: diagonal da superficie = NPDC por quantil (V7-1d): dif. max 4.62e-14 
+[2026-10-03 18:51:18] v7_40 concluido em 0.4 min 
+[2026-10-03 18:51:20] Script v7_41_s8_contrafactual_dd.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:52:08] V7b S8 teste B=20: validas BTC 20/20, ETH 20/20 (47 s) 
+[2026-10-03 18:54:05] V7b S8 B=500: validas BTC 500, ETH 500; timeouts 0/0 (1.9 min) 
+[2026-10-03 18:54:05] V7b S8: Delta(0.05)/Delta(0.95) reproduzem V7-5.6: 42 estatisticas, dif. max pontual 4.97e-14, IC 4.97e-14 
+[2026-10-03 18:54:05] v7_41 concluido em 2.8 min 
+[2026-10-03 18:54:07] Script v7_42_s12_s13.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:54:07] V7b S13: BTC (i) Nao (ii) Nao (iii) Nao -> causal Nao; ETH (i) Sim (ii) Parcial (iii) Nao -> causal Nao 
+[2026-10-03 18:54:07] v7_42 concluido em 0.7 s 
+[2026-10-03 18:54:09] Script 20_figuras.R | R version 4.5.3 (2026-03-11 ucrt) | ConnectednessApproach 1.0.4; quantreg 6.1; zoo 1.8.15; xts 0.14.2; urca 1.3.4; tseries 0.10.61; vars 1.6.1; flextable 0.10.0; officer 0.7.5; ggplot2 4.0.3; httr2 1.2.2; jsonlite 2.0.0 
+[2026-10-03 18:54:10] 20_figuras concluido em 1.1 s 

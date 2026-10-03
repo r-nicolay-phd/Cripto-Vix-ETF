@@ -1,0 +1,4 @@
+"quantity","value"
+"ret(ii) Mon 2024-03-04 = 100*log(P[Mon]/P[Fri 2024-03-01])",9.01387651506421
+"ret(i)  Mon 2024-03-04 = 100*log(P[Mon]/P[Sun 2024-03-03])",7.85671151234345
+"base_estendida_v7.csv BTC on 2024-03-04",9.01387651506429

@@ -1,0 +1,9 @@
+"scheme","pair","B","n_valid","n_timeout","pct_valid","meets_95pct"
+"B=20 test: MBB + noise","BTC",20,20,0,100,TRUE
+"B=20 test: MBB + noise","ETH",20,20,0,100,TRUE
+"B=20 test: stationary + noise","BTC",20,20,0,100,TRUE
+"B=20 test: stationary + noise","ETH",20,20,0,100,TRUE
+"Corrected: MBB (block 20) within pre/post + noise","BTC",500,500,0,100,TRUE
+"Corrected: MBB (block 20) within pre/post + noise","ETH",500,500,0,100,TRUE
+"Robustness: stationary bootstrap (mean block 20) + noise","BTC",500,500,0,100,TRUE
+"Robustness: stationary bootstrap (mean block 20) + noise","ETH",500,500,0,100,TRUE

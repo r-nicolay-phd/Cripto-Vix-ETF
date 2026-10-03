@@ -1,0 +1,4 @@
+"series","B","n_valid","n_errors","n_timeout_total","failure_rate_pct"
+"BTC",500,500,0,0,0
+"ETH",500,500,0,0,0
+"ETH_pre_to_2024_01_10",500,500,0,0,0
