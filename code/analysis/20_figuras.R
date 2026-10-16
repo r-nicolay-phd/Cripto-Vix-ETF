@@ -1,10 +1,13 @@
 # =====================================================================
 # FIGURAS EM TONS DE CINZA (300 dpi, sem titulo interno, rotulos em ingles)
 # Codigo extraido, sem alteracao, da secao "FIGURAS" de v7_30_tabelas_figuras.R.
-#   results/fig/V7-F3_counterfactual_median_and_upper_tail.png -> Fig. 4
-#   results/fig/V7-F5.11_flow_differential_state_tminus1.png   -> Fig. 5 e Fig. S2
-#   results/fig/V7-F5.8_placebo_DD095_histogram.png            -> Fig. S1
-# Fig. 1 e Fig. 2: 17_superficies_qq_fig1_fig2.R; Fig. 3: 11_bca_influencia.R.
+#   results/fig/V7-F5.11_flow_differential_state_tminus1.png   -> Fig. 5
+#   results/fig/V7-F5.8_placebo_DD095_histogram.png            -> Fig. S2
+#   results/fig/V7-F3_counterfactual_median_and_upper_tail.png -> versao
+#     anterior da Fig. 4 (bootstrap de blocos de linhas), nao usada; a
+#     Fig. 4 atual e gerada por 30_v10_contrafactual.R.
+# Fig. 1 e Fig. S1: 17_superficies_qq_fig1_fig2.R; Fig. 2:
+# 23_v9_estabilidade_especificacoes.R; Fig. 3: 26_v9_influencia_blocos.R.
 # =====================================================================
 source(file.path(Sys.getenv("CVE_ROOT", "."), "code/functions/funcoes_pipeline.R"))
 suppressPackageStartupMessages({ library(ggplot2) })

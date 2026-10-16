@@ -1,0 +1,5 @@
+"pair","percentile","threshold_VIX","days_high_pre","days_low_pre","days_high_post","days_low_post"
+"BTC",0.8,23.778,390,1134,55,640
+"ETH",0.8,23.778,390,1271,55,503
+"BTC",0.9,27.948,205,1319,18,677
+"ETH",0.9,27.948,205,1456,18,540

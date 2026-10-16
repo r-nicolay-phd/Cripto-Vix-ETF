@@ -1,0 +1,5 @@
+"pair","sample","n","max_abs_diff_level","max_abs_diff_dlog_vs_rowdiff","max_abs_diff_dlogspec"
+"BTC","pre",1528,2.8421709430404e-14,0,0
+"BTC","post",695,1.4210854715202e-14,0,0
+"ETH","pre",1665,2.8421709430404e-14,0,0
+"ETH","post",558,1.06581410364015e-14,0,0

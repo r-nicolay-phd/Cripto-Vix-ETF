@@ -1,0 +1,33 @@
+"pair","sample","day_set","variable","n","mean","median","p10","p90","min","max"
+"BTC","pre","tau = 0.95, residual > 0 (above conditional quantile)","VIX level",77,25.6196103896104,22.79,15.228,37.254,9.52,82.69
+"BTC","pre","tau = 0.95, residual > 0 (above conditional quantile)","Change in VIX (level difference)",77,5.17818181818182,3.82,2.172,8.78600000000002,0.0899999999999999,24.86
+"BTC","pre","tau = 0.05, residual < 0 (below conditional quantile)","VIX level",77,17.8136363636364,16.91,12.512,22.93,11.27,57.83
+"BTC","pre","tau = 0.05, residual < 0 (below conditional quantile)","Change in VIX (level difference)",77,-2.68363636363636,-2.24,-4.492,-0.98,-17.64,-0.720000000000001
+"BTC","pre","tau = 0.05, residual > 0 (literal reading)","VIX level",1449,20.7068737060041,19.07,12.98,29.834,9.22,82.69
+"BTC","pre","tau = 0.05, residual > 0 (literal reading)","Change in VIX (level difference)",1449,0.145051759834369,-0.0700000000000003,-1.422,1.892,-8.46000000000001,24.86
+"BTC","pre","All days in subsample","VIX level",1526,20.5608846657929,18.875,12.915,29.525,9.22,82.69
+"BTC","pre","All days in subsample","Change in VIX (level difference)",1526,0.00231979030144168,-0.149999999999999,-1.75,1.765,-17.64,24.86
+"BTC","post","tau = 0.95, residual > 0 (above conditional quantile)","VIX level",36,21.9055555555556,20.55,15.155,29.755,13.93,45.31
+"BTC","post","tau = 0.95, residual > 0 (above conditional quantile)","Change in VIX (level difference)",36,4.21555555555556,3.015,1.505,7.805,0.970000000000001,15.29
+"BTC","post","tau = 0.05, residual < 0 (below conditional quantile)","VIX level",34,15.0991176470588,14.03,12.002,18.381,11.86,33.62
+"BTC","post","tau = 0.05, residual < 0 (below conditional quantile)","Change in VIX (level difference)",34,-2.315,-1.465,-4.157,-0.325,-18.71,-0.0999999999999996
+"BTC","post","tau = 0.05, residual > 0 (literal reading)","VIX level",659,17.7157359635812,16.64,13.6,22.7,12.09,52.33
+"BTC","post","tau = 0.05, residual > 0 (literal reading)","Change in VIX (level difference)",659,0.122640364188164,-0.0600000000000005,-1.42,1.662,-10.86,15.29
+"BTC","post","All days in subsample","VIX level",693,17.5873593073593,16.59,13.404,22.46,11.86,52.33
+"BTC","post","All days in subsample","Change in VIX (level difference)",693,0.00304473304473305,-0.0999999999999996,-1.516,1.588,-18.71,15.29
+"ETH","pre","tau = 0.95, residual > 0 (above conditional quantile)","VIX level",83,24.930843373494,21.84,14.822,36.982,9.22,82.69
+"ETH","pre","tau = 0.95, residual > 0 (above conditional quantile)","Change in VIX (level difference)",83,4.9833734939759,3.67,2.164,7.886,0.0700000000000003,24.86
+"ETH","pre","tau = 0.05, residual < 0 (below conditional quantile)","VIX level",83,17.489156626506,16.44,12.354,23.096,9.22,57.83
+"ETH","pre","tau = 0.05, residual < 0 (below conditional quantile)","Change in VIX (level difference)",83,-2.58204819277108,-1.99,-4.572,-0.954000000000001,-17.64,0.0700000000000003
+"ETH","pre","tau = 0.05, residual > 0 (literal reading)","VIX level",1580,20.1367151898734,18.395,12.83,29.251,9.22,82.69
+"ETH","pre","tau = 0.05, residual > 0 (literal reading)","Change in VIX (level difference)",1580,0.139284810126582,-0.0700000000000003,-1.401,1.76,-8.46000000000001,24.86
+"ETH","pre","All days in subsample","VIX level",1663,20.0045760673482,18.19,12.79,29.03,9.22,82.69
+"ETH","pre","All days in subsample","Change in VIX (level difference)",1663,0.00346361996392063,-0.120000000000001,-1.638,1.708,-17.64,24.86
+"ETH","post","tau = 0.95, residual > 0 (above conditional quantile)","VIX level",27,23.6414814814815,21.51,17.556,33.44,14.19,45.31
+"ETH","post","tau = 0.95, residual > 0 (above conditional quantile)","Change in VIX (level difference)",27,4.92296296296296,3.43,1.99,9.80600000000001,1.12,15.29
+"ETH","post","tau = 0.05, residual < 0 (below conditional quantile)","VIX level",28,15.8021428571429,15.03,13.431,17.94,12.77,33.62
+"ETH","post","tau = 0.05, residual < 0 (below conditional quantile)","Change in VIX (level difference)",28,-2.48535714285714,-1.78,-4.073,-0.333,-18.71,-0.0399999999999991
+"ETH","post","tau = 0.05, residual > 0 (literal reading)","VIX level",528,18.6482196969697,17.355,15.037,23.814,13.45,52.33
+"ETH","post","tau = 0.05, residual > 0 (literal reading)","Change in VIX (level difference)",528,0.125681818181818,-0.0800000000000001,-1.493,2.016,-10.86,15.29
+"ETH","post","All days in subsample","VIX level",556,18.5048920863309,17.21,14.905,23.705,12.77,52.33
+"ETH","post","All days in subsample","Change in VIX (level difference)",556,-0.00580935251798561,-0.120000000000001,-1.66,1.83,-18.71,15.29

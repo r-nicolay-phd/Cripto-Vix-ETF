@@ -1,0 +1,5 @@
+"condition","holds","detail"
+"1. Max companion modulus at tau = 0.95 < 1 in all subsamples (pre, post, total) of both pairs",FALSE,"BTC pre 1.154; BTC post 1.308; BTC total 1.174; ETH pre 1.167; ETH post 1.270; ETH total 1.155"
+"2a. Pattern present in variant (c) (H = 1), both pairs",FALSE,"BTC: NPDC_pre(0.95) -0.00, max|NPDC_pre(0.25-0.75)| 0.00; ETH: NPDC_pre(0.95) -0.00, max|NPDC_pre(0.25-0.75)| 0.00"
+"2b. Pattern present in variant (d) (GARCH-standardized), both pairs",TRUE,"BTC: NPDC_pre(0.95) -10.68, max|NPDC_pre(0.25-0.75)| 1.44; ETH: NPDC_pre(0.95) -10.20, max|NPDC_pre(0.25-0.75)| 1.04"
+"Rule A verdict",FALSE,"Finding 1 DOWNGRADED (specification-dependent)"

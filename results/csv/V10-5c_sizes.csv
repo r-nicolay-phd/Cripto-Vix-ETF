@@ -1,0 +1,3 @@
+"pair","obs_removed_by_window","n_pre","n_post","gaps_pre","gaps_post","design_rows_pre","design_rows_post","obs_dropped_gap_rule"
+"BTC",40,1528,655,0,2,1526,649,4
+"ETH",40,1664,519,0,1,1662,515,2
