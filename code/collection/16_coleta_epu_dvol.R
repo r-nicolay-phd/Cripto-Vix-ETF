@@ -17,7 +17,7 @@ dir.create(dir_clean, recursive = TRUE, showWarnings = FALSE)
 
 log_lines <- character(0)
 log_msg <- function(...) { msg <- paste0(...); cat(msg, "\n"); log_lines <<- c(log_lines, msg) }
-ua <- "Mozilla/5.0 (academic research; MEGE-UCAM; contato rtfnicolay@gmail.com)"
+ua <- "Mozilla/5.0 (academic research)"
 
 ## ---- Item 9: EPU diário ------------------------------------------------
 log_msg("## Item 9 — EPU diário dos EUA (policyuncertainty.com)")

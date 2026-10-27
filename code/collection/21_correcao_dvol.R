@@ -23,7 +23,7 @@ dir.create(dir_clean, recursive = TRUE, showWarnings = FALSE)
 
 log_lines <- character(0)
 log_msg <- function(...) { msg <- paste0(...); cat(msg, "\n"); log_lines <<- c(log_lines, msg) }
-ua <- "Mozilla/5.0 (academic research; MEGE-UCAM; contato rtfnicolay@gmail.com)"
+ua <- "Mozilla/5.0 (academic research)"
 ep <- "https://www.deribit.com/api/v2/public/get_volatility_index_data"
 
 get_dvol_janela <- function(currency, from, to) {

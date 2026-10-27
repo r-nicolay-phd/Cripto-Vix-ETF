@@ -1,6 +1,6 @@
 # =====================================================================
 # COLETA 1 — Atualização de BTC, ETH e VIX + verificação de consistência
-# Projeto: Cripto x VIX x ETF — QQ Connectedness (Nelson, MEGE-UCAM)
+# Projeto: Cripto x VIX x ETF — QQ Connectedness
 # =====================================================================
 # VIX: série VIXCLS do FRED (CSV público, sem chave, pois FRED_API_KEY
 #      não está definida no ambiente).
@@ -43,7 +43,7 @@ if (nzchar(fred_key)) {
 
 vix_raw <- tryCatch({
   req <- request("https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS") |>
-    req_user_agent("Mozilla/5.0 (academic research; MEGE-UCAM; contato rtfnicolay@gmail.com)")
+    req_user_agent("Mozilla/5.0 (academic research)")
   resp <- req_perform(req)
   resp_body_string(resp)
 }, error = function(e) { log_msg("VIX: ERRO ao baixar — ", conditionMessage(e)); NULL })
@@ -84,7 +84,7 @@ get_binance_klines <- function(symbol, start_date, end_date = Sys.Date()) {
     req <- request(base_url) |>
       req_url_query(symbol = symbol, interval = "1d", startTime = format(cursor, scientific = FALSE),
                     endTime = format(end_ms, scientific = FALSE), limit = 1000) |>
-      req_user_agent("Mozilla/5.0 (academic research; MEGE-UCAM)")
+      req_user_agent("Mozilla/5.0 (academic research)")
     resp <- req_perform(req)
     d <- resp_body_json(resp, simplifyVector = TRUE)
     if (is.null(d) || (is.matrix(d) && nrow(d) == 0) || length(d) == 0) break

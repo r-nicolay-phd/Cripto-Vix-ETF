@@ -43,7 +43,7 @@ for (tk in c("^GSPC", "GLD", "GC=F")) {
 log_msg("\n## Item 6 (opcional) — SP500 do FRED, para conferência")
 fred_sp500 <- tryCatch({
   req <- request("https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500") |>
-    req_user_agent("Mozilla/5.0 (academic research; MEGE-UCAM)")
+    req_user_agent("Mozilla/5.0 (academic research)")
   resp_body_string(req_perform(req))
 }, error = function(e) { log_msg("SP500 FRED: ERRO — ", conditionMessage(e)); NULL })
 if (!is.null(fred_sp500)) {

@@ -1,7 +1,7 @@
 # Is it the ETF? Transmission of risk aversion to Bitcoin and Ethereum after spot ETF approvals
 
 Replication code and data for the article (Finance Research Letters, submitted).
-Authors: Rodolfo Tomás da Fonseca Nicolay, Nelson Felippe Pinheiro, Marcelo Cabús Klötzle.
+Author information is omitted for anonymous review.
 
 The repository contains the code and data that generated the current manuscript (Table 1,
 Figures 1–5) and its Supplementary Material (Tables S1–S33, Figures S1–S2). The pipeline has
